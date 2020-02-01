@@ -1,0 +1,67 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+section {
+  padding: 20px;
+  background: darkgrey;
+}
+
+body {
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: orange;
+}
+
+#left {
+  float: left;
+  width: 33%;
+  background: grey;
+}
+
+#middle {
+  float: left;
+  width: 33%;
+  background: red;
+}
+
+#right {
+  float: left;
+  width: 34%;
+  background: grey;
+}
+
+/* layer is done by either floating or not floating related elements */
+
+/* this is a section below the top objects bc this is the derived class */
+#full {
+  height: 500px;
+  width: 100%;
+}
+
+#division {
+  background: blue;
+  width: 100%;
+  z-index: 2;
+}
+
+aside {
+  height: 400px;
+  width: 200px;
+  background: yellow;
+  float: left;
+  z-index: 1;
+}
+
+footer {
+  background: orange;
+}

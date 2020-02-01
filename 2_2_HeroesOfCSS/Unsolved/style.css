@@ -1,0 +1,28 @@
+/**
+ * Google Fonts Demo
+ **/
+
+/* Add in the Google Fonts of your choice */
+
+h1,
+h2,
+h4 {
+ font-family: Bowlby One SC;
+ font-style: italic;
+ font-stretch: extra-expanded;
+ letter-spacing: 2rem;
+ font-size: xx-large;
+ text-decoration: underline;
+}
+
+h3,
+p {
+    font-family: Karla;
+    font-size: xx-small;
+    color: grey;
+}
+
+.thought1 {
+    font-family: Roboto;
+    font-size: xx-large;
+}
